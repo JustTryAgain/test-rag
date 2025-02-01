@@ -11,7 +11,15 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "@mozilla/readability": "^0.5.0",
+    "@pinecone-database/pinecone": "^4.1.0",
+    "@types/jsdom": "^21.1.7",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsdom": "^26.0.0",
+    "kafkajs": "^2.2.4"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
